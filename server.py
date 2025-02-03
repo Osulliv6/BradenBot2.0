@@ -6,9 +6,9 @@ import threading
 app = Flask(__name__)
 
 #YOU NEED TO CHANGE ALL OF THESE VALUES 
-GROUPME_BOT_ID = "8706abc5070c17d8f3a3f4aeda" #created on the GroupMe Developers Account under bots 
-GROUPME_GROUP_ID = "105781627"  # https://www.schmessage.com/IDFinder/ Links to the webiste to find the chatID
-GROUPME_ACCESS_TOKEN = "QRBBArnPbV1BWAFemAdHEZQNP5HYZl4JeNXnTimf"  #Login to GroupMe developers account and hit access token 
+GROUPME_BOT_ID = "ID HERE" #created on the GroupMe Developers Account under bots 
+GROUPME_GROUP_ID = "ID HERE"  # https://www.schmessage.com/IDFinder/ Links to the webiste to find the chatID
+GROUPME_ACCESS_TOKEN = "ID HERE"  #Login to GroupMe developers account and hit access token 
 
 def post_to_groupme(message):
     url = "https://api.groupme.com/v3/bots/post"
